@@ -7,7 +7,6 @@ def base_footwork
     puts "1. Lift right foot"
     puts "2. Return right foot to the ground"
     puts "3. Finishing with a small skip-step backward"
-    skip_stepleft
 end
 
 def skip_stepleft
@@ -40,4 +39,5 @@ def bob_the_reins
     skip_stepright
     bob_the_reins
     skip_stepleft
-    
+    lasso
+  end
